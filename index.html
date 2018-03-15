@@ -5,13 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rock Paper Scissors - Multiplayer</title>
 
+
     <!-- BOOTSTRAP - Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    
 </head>
 <body>
-    
+    <div class="container">
 
+        <div class="page-header">
+            <h1>Rock Paper Scissor</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-xs.12">
+                <div class="player-welcome"></div>
+                <div class="player-system-message"></div>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="player-name-input" placeholder="Name">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="player-name-submit">Start</button>
+                </form>
+            </div>
+        </div>
+
+
+            
+        
+            <textarea class="form-control" id="chat-message-log" rows="5"></textarea>
+            <input type="text" class="form-control" id="my-message-input" placeholder="Chat Here">
+        
+        
+            <input class="btn btn-default" type="submit" id="message-button" value="Send Message">
+
+
+
+
+
+
+
+
+    </div>
 
 
 
