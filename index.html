@@ -19,7 +19,7 @@
         </div>
 
         <div class="row">
-            <div class="col-xs.12">
+            <div class="col-xs-12">
                 <div class="player-welcome"></div>
                 <div class="player-system-message"></div>
                 <form class="form-inline">
@@ -30,15 +30,33 @@
                 </form>
             </div>
         </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="game-box" id="rps-choice-p1">
+                    <p id="name1">Waiting For Player 1</p>
+                </div>
+                <div class="game-box" id="outcome">
+                    <p>&nbsp;</p>
+                </div>
+                <div class="game-box" id="rps-choice-p2">
+                    <p id="name2">Waiting for Player 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <textarea class="form-control" id="chat-message-log" rows="5"></textarea>
+                <input type="text" class="form-control" id="my-message-input" placeholder="Chat Here">
+            
+            
+                <input class="btn btn-default" type="submit" id="message-button" value="Send Message">
+            </div>
+        </div>
 
 
             
         
-            <textarea class="form-control" id="chat-message-log" rows="5"></textarea>
-            <input type="text" class="form-control" id="my-message-input" placeholder="Chat Here">
-        
-        
-            <input class="btn btn-default" type="submit" id="message-button" value="Send Message">
+
 
 
 
